@@ -126,8 +126,12 @@
         loadout = user.loadout;
         console.log('thing');
         resetCanvas();
-        if (loadout.legs == null) {
+        if (loadout.legs === null) {
           $('#legs-select').click();
+          $('.equip')[0].click();
+        }
+        if (loadout.chest === nul) {
+          $('#chest-select').click();
           $('.equip')[0].click();
         }
         $(selections[0]).click();
