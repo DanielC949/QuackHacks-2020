@@ -1,6 +1,6 @@
 function getUserData(id) {
   return {
-    name: "Lorem ipsum dolor sit amet",
+    name: "Your Character",
     loadout: {
       chest: null,
       legs: null,
